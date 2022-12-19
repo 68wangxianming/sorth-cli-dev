@@ -1,6 +1,6 @@
 {
   "name": "@sorth-cli-dev/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sorth-cli-dev core",
   "author": "68wangxianming <1842344641@qq.com>",
   "homepage": "",
@@ -17,6 +17,6 @@
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {
-    "@sorth-cli-dev/utils": "^1.0.0"
+    "@sorth-cli-dev/utils": "^1.0.1"
   }
 }
