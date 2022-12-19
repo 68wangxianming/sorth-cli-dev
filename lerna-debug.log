@@ -1,0 +1,9 @@
+0 silly argv { _: [ 'create' ], lernaVersion: '6.1.0', '$0': 'lerna', name: 'core' }
+1 notice cli v6.1.0
+2 verbose rootPath /Users/wangxianming/Desktop/sorth-cli-dev
+3 error Error: Command failed with exit code 1: git config --get user.name
+3 error     at makeError (/Users/wangxianming/Desktop/sorth-cli-dev/node_modules/_execa@5.1.1@execa/lib/error.js:60:11)
+3 error     at Function.module.exports.sync (/Users/wangxianming/Desktop/sorth-cli-dev/node_modules/_execa@5.1.1@execa/index.js:194:17)
+3 error     at Object.execSync (/Users/wangxianming/Desktop/sorth-cli-dev/node_modules/_@lerna_child-process@6.1.0@@lerna/child-process/index.js:39:16)
+3 error     at CreateCommand.gitConfig (/Users/wangxianming/Desktop/sorth-cli-dev/node_modules/_@lerna_create@6.1.0@@lerna/create/index.js:180:25)
+3 error     at CreateCommand.initialize (/Users/wangxianming/Desktop/sorth-cli-dev/node_modules/_@lerna_create@6.1.0@@lerna/create/index.js:102:46)
