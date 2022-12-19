@@ -20,7 +20,10 @@
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {
-    "@sorth-cli-dev/utils": "^1.0.2"
+    "@sorth-cli-dev/utils": "^1.0.0"
   },
-  "gitHead": "cfc876d57831538198763a38bbd474100b750c28"
+  "gitHead": "cfc876d57831538198763a38bbd474100b750c28",
+  "publishConfig": {
+    "access": "public"
+  }
 }
